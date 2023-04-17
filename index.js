@@ -39,6 +39,9 @@ function summation(number) {
   }
  
 
+// console.log(summation(4));
+
+
 /* 🦁🦁🦁 Request 1: .forEach() 🦁🦁🦁
   The zoos want to display both the scientific name and the animal name in front of the habitats. 
     1. Receive the zooAnimals array as an argument passed from a parameter 
@@ -107,14 +110,14 @@ function summation(number) {
 
   // remember returns single value back 
 
-  function USApop(){
-    const popReduce = zooAnimals.reduce((accumulator, currentValue) => {
+  function USApop(zooAnimals){
+    const popReduce = zooAnimals.reduce ((accumulator, currentValue) => {
 return accumulator + currentValue.population;
     }, 0);
     return popReduce;
    }
   
-  // console.log(USApop(zooAnimals));
+   console.log(USApop(zooAnimals));
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
   /* 🦁🦁🦁 Step 1: Create a higher-order function 🦁🦁🦁
