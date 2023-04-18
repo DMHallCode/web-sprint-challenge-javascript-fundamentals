@@ -16,7 +16,7 @@ function myFunction() {
 //myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-// l
+
 
 
 
@@ -110,7 +110,7 @@ function summation(number) {
 
   // remember returns single value back 
 
-  function USApop(zooAnimals){
+  function USApop(){
     const popReduce = zooAnimals.reduce ((accumulator, currentValue) => {
 return accumulator + currentValue.population;
     }, 0);
