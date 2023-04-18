@@ -110,14 +110,14 @@ function summation(number) {
 
   // remember returns single value back 
 
-  function USApop(){
+  function USApop(zooAnimals){
     const popReduce = zooAnimals.reduce ((accumulator, currentValue) => {
 return accumulator + currentValue.population;
     }, 0);
     return popReduce;
    }
   
-   console.log(USApop(zooAnimals));
+   //console.log(USApop(zooAnimals));
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
   /* 🦁🦁🦁 Step 1: Create a higher-order function 🦁🦁🦁
